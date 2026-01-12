@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signal Integrity (HyperLynx) Course | Infinity ProLabs</title>
+    
+    <link rel="icon" href="logo.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <a href="index.html#courses" class="back-btn">
+        <i class="fa-solid fa-arrow-left"></i> Back to Courses
+    </a>
+
+    <section class="course-header">
+        <div class="container">
+            <span class="highlight" style="font-size: 0.9rem; letter-spacing: 2px;">ADVANCED SIMULATION</span>
+            <h1 style="font-size: 2.5rem; margin-top: 10px;">Signal Integrity & <br><span class="gradient-text">HyperLynx Design</span></h1>
+            <p style="color: #bbb; max-width: 700px; margin: 20px auto;">
+                Master high-speed interfaces, DDRx, and SerDes simulation using Mentor Graphics HyperLynx. Validate 25Gbps links before fabrication.
+            </p>
+            
+            <div style="display: flex; justify-content: center; gap: 30px; margin-top: 30px; flex-wrap: wrap;">
+                <div class="stat-box" style="padding: 15px 30px; background: rgba(255,255,255,0.05); border-radius: 10px; display: flex; align-items: center; gap: 10px;">
+                    <i class="fa-solid fa-wave-square" style="color: var(--primary-red);"></i>
+                    <span>25Gbps Simulation</span>
+                </div>
+                <div class="stat-box" style="padding: 15px 30px; background: rgba(255,255,255,0.05); border-radius: 10px; display: flex; align-items: center; gap: 10px;">
+                    <i class="fa-solid fa-microchip" style="color: var(--primary-purple);"></i>
+                    <span>IBIS-AMI Models</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="padding-bottom: 80px;">
+        <h2 class="section-title">Course <span class="gradient-text">Modules</span></h2>
+        
+        <div class="module-grid">
+            
+            <div class="module-card">
+                <div class="module-title">1. Fundamentals of SI</div>
+                <ul class="module-list">
+                    <li>Transmission line theory & termination</li>
+                    <li>Reflections, Overshoot, and Undershoot</li>
+                    <li>Understanding Jitter and Timing budgets</li>
+                    <li>Invoking HyperLynx & Schematic entry</li>
+                    <li>Introduction to IBIS Models</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <div class="module-title">2. Crosstalk & Reflections</div>
+                <ul class="module-list">
+                    <li>Topology analysis for reflection minimization</li>
+                    <li>Crosstalk analysis strategies (NEXT/FEXT)</li>
+                    <li>Managing PCB effects on signal quality</li>
+                    <li>On-chip termination techniques</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <div class="module-title">3. Memory & Power</div>
+                <ul class="module-list">
+                    <li>DDR3/DDR4 Design & Simulation</li>
+                    <li>Eye Diagram analysis for memory interfaces</li>
+                    <li>FPGA Power Supply design challenges</li>
+                    <li>Thermal aspects of high-speed boards</li>
+                </ul>
+            </div>
+
+            <div class="module-card">
+                <div class="module-title">4. Advanced High-Speed (SerDes)</div>
+                <ul class="module-list">
+                    <li>High-Speed SerDes Transceivers (25Gbps+)</li>
+                    <li>S-Parameters for high-speed apps</li>
+                    <li>Pre-layout & Post-layout with IBIS-AMI</li>
+                    <li>TX & RX Equalization techniques</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="lab-box">
+            <h3 style="color: white; margin-bottom: 20px;">Hands-on Labs</h3>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
+                <div style="display: flex; gap: 10px; color: #ccc;">
+                    <i class="fa-solid fa-flask" style="color: var(--primary-red); margin-top:5px;"></i>
+                    <strong>Lab 1:</strong> Modify IBIS models & define PCB stackup.
+                </div>
+                <div style="display: flex; gap: 10px; color: #ccc;">
+                    <i class="fa-solid fa-flask" style="color: var(--primary-red); margin-top:5px;"></i>
+                    <strong>Lab 2:</strong> Reflection Analysis & Termination strategies.
+                </div>
+                <div style="display: flex; gap: 10px; color: #ccc;">
+                    <i class="fa-solid fa-flask" style="color: var(--primary-red); margin-top:5px;"></i>
+                    <strong>Lab 3:</strong> Crosstalk Analysis & minimization.
+                </div>
+                <div style="display: flex; gap: 10px; color: #ccc;">
+                    <i class="fa-solid fa-flask" style="color: var(--primary-red); margin-top:5px;"></i>
+                    <strong>Lab 4:</strong> DDR3/4 Simulation with Eye Diagrams.
+                </div>
+                <div style="display: flex; gap: 10px; color: #ccc;">
+                    <i class="fa-solid fa-flask" style="color: var(--primary-red); margin-top:5px;"></i>
+                    <strong>Lab 6:</strong> Pre-layout simulation with IBIS-AMI (~25Gbps).
+                </div>
+                <div style="display: flex; gap: 10px; color: #ccc;">
+                    <i class="fa-solid fa-flask" style="color: var(--primary-red); margin-top:5px;"></i>
+                    <strong>Lab 7:</strong> Post-layout simulation verification.
+                </div>
+            </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 60px;">
+            <a href="https://wa.me/917019973316?text=Hi,%20I%20am%20interested%20in%20the%20HyperLynx%20Signal%20Integrity%20Course" class="btn btn-gradient" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> Enquire & Join Now
+            </a>
+        </div>
+
+    </section>
+
+    <footer class="footer">
+        <div class="container" style="text-align: center;">
+            <p>© 2026 Infinity ProLabs R&D. <br> <a href="index.html#courses" style="color: var(--primary-purple);">Back to Courses</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
